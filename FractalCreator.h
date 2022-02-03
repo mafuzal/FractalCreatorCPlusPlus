@@ -1,5 +1,3 @@
-
-
 #ifndef FRACTALCREATOR_H
 #define FRACTALCREATOR_H
 #include <string>
