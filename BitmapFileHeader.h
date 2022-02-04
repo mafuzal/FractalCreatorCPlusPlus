@@ -1,21 +1,22 @@
+/*
+*  BitmapFileHeader.h 
+*/ 
+
 #ifndef BITMAPFILEHEADER_H_
 #define BITMAPFILEHEADER_H_
 
 #include <cstdint>
-
 using namespace std;
 
-#pragma pack(2)
+#pragma pack(2) // Makes C++ align in 2 Bytes 
 
-namespace MH {
-
-struct BitmapFileHeader {
-	char header[2] { 'B', 'M' };
+struct BitmapFileHeader{
+	char header[2]{'B', 'M'};
 	int32_t fileSize;
-	int32_t reserved { 0 };
+	int32_t reserved{0};
 	int32_t dataOffset;
 };
 
-}
 
-#endif /* BITMAPFILEHEADER_H_ */
+
+#endif /*BITMAPFILEHEADER_H_*/
