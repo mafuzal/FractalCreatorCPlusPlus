@@ -2,7 +2,6 @@
 #define BITMAPINFOHEADER_H_
 
 #include <cstdint>
-
 using namespace std;
 #pragma pack(2)
 
