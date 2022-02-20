@@ -1,3 +1,4 @@
+//W2022
 /*
 *  BitmapFileHeader.h 
 */ 
