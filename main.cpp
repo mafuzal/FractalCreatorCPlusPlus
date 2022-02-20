@@ -1,3 +1,4 @@
+//W2022
 #include <iostream>
 #include "BitmapFileHeader.h"
 #include "BitmapInfoHeader.h"

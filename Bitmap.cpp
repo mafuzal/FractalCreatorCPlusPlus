@@ -1,3 +1,4 @@
+//W2022
 #include "Bitmap.h"
 
 Bitmap::Bitmap(int width, int height) : m_width(width), m_height(height), m_pPixels(new uint8_t[width * height * 3])

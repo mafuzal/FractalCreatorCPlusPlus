@@ -1,3 +1,4 @@
+//W2022
 /* Bitmap.h  */
 #ifndef BITMAP_H_
 #define BITMAP_H_
